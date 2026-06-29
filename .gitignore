@@ -1,0 +1,15 @@
+# Rule 1: Ignore Python's automatic system cache folders
+__pycache__/
+*.py[cod]
+
+# Rule 2: Ignore local virtual environments (where external libraries live)
+venv/
+.venv/
+env/
+
+# Rule 3: Ignore your private environment variables / secrets
+.env
+
+# Rule 4: Ignore hidden operating system junk files
+.DS_Store
+Thumbs.db
